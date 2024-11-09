@@ -16,7 +16,7 @@ This repository implements a Meta-Learning framework combined with Multi-Modal L
 Run the following commands to install the required packages:
 
 ```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
 ```
 ---
 
