@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-**Note**:Due to the large size of the datasets, the repository does not include data files. Users must prepare datasets separately.
+- **Note**:Due to the large size of the datasets, the repository does not include data files. Users must prepare datasets separately.
 The project utilizes the following datasets for molecular property prediction:
 
 1. **MUV**: A dataset for classification tasks, focusing on molecular activity prediction.
