@@ -11,11 +11,6 @@ This repository implements a Meta-Learning framework combined with Multi-Modal L
 
 ## Installation
 
-### Prerequisites
-
-- **Python >= 3.8**
-- **PyTorch >= 1.9**
-
 ### Install dependencies
 
 Run the following commands to install the required packages:
