@@ -29,11 +29,12 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-**Note**: Due to the large size of the datasets, the repository does not include data files. Users must prepare datasets separately.
+```Note:Due to the large size of the datasets, the repository does not include data files. Users must prepare datasets separately.
 
+```
 
-- 1. Ensure the dataset follos the expected format:SMILES
-- 2. Place dataset files in the "data" files.
+1.Ensure the dataset follos the expected format:SMILES
+2.Place dataset files in the "data" files.
 
 ---
 
@@ -53,7 +54,7 @@ python Meta-GAT.py
 - **Prediction Fusion**: Uses `fusion_emb` to concatenate and pass multi-modal features through a fully connected layer for final prediction.
 - **Error Calculation**: Implements SGGRL's error calculation strategy for multi-modal representation learning.
 
-### 2. `MetaLearner` and `MetaLearnerReg` 
+### 2. `MetaLearner` and `MetaLearnerReg` Classes
 
 - **Meta-Learning Optimization**: Updates fastweights using the meta-learning optimization method from Meta-GAT.
 - **Forward Propagation Adjustments**: Removes SGGRL modules that do not participate in forward propagation to ensure fastweights are correctly updated.
