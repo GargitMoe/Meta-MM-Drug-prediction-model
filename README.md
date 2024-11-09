@@ -4,9 +4,8 @@ This repository implements a Meta-Learning framework combined with Multi-Modal L
 
 ## Features
 
-- **Meta-Learning**: Utilize Meta-GAT to adaptively learn molecular tasks.
+- **Meta-Learning**: Utilize Meta-GAT to adaptively learn molecular tasks. Employ meta-learning techniques for fast task adaptation.
 - **Multi-Modal Learning**: Combine sequence-based, graph-based, and geometric representations for comprehensive molecular property analysis.
-- **Task-Specific Adaptation**: Employ meta-learning techniques for fast task adaptation.
 
 ---
 
@@ -24,6 +23,7 @@ Run the following commands to install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ## Usage
 
@@ -64,6 +64,7 @@ python Meta-GAT.py
 - **Meta-Learning Optimization**: Updates fastweights using the meta-learning optimization method from Meta-GAT.
 - **Forward Propagation Adjustments**: Removes SGGRL modules that do not participate in forward propagation to ensure fastweights are correctly updated.
 
+---
 ## Performance of Meta-MM
 
 The performance of **Meta-MM** on two benchmark datasets is shown below:
@@ -73,6 +74,7 @@ The performance of **Meta-MM** on two benchmark datasets is shown below:
 | MUV     | 0.67    |
 | Sider   | 0.79    |
 
+---
 ## Acknowledgments
 
 This project integrates techniques from **Meta-GAT** and **SGGRL**, and we are deeply grateful to the original authors for their outstanding work. Readers interested in their methods can refer to the following resources:
