@@ -32,8 +32,6 @@ The project utilizes the following datasets for molecular property prediction:
 
 
 - **Note**: Due to the large size of the QM9 datasets, the repository does not include QM9 files.
-- Ensure the dataset follos the expected format:SMILES
-- Place dataset files in the "data" files.
 
 ---
 
