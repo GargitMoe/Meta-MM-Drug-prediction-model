@@ -1,4 +1,4 @@
-# Meta-GAT + Multi-Modal Framework for Molecular Property Prediction
+# Meta-GAT + Multi-Modal for Molecular Property Prediction
 
 This repository implements a Meta-Learning framework combined with Multi-Modal Learning for molecular property prediction tasks. The core model integrates **Meta-GAT** and **SGGRL** (Sequence, Graph, and Geometric Representations Learning), providing a novel approach for molecular analysis.
 
@@ -23,8 +23,6 @@ conda env create -f environment.yml
 ## Usage
 
 ### Data Preparation
-
-- **Note**:Due to the large size of the datasets, the repository does not include data files. Users must prepare datasets separately.
 The project utilizes the following datasets for molecular property prediction:
 
 1. **MUV**: A dataset for classification tasks, focusing on molecular activity prediction.
@@ -33,8 +31,9 @@ The project utilizes the following datasets for molecular property prediction:
 4. **QM9**: A regression dataset containing quantum mechanical properties of molecules.
 
 
-- 1. Ensure the dataset follos the expected format:SMILES
-- 2. Place dataset files in the "data" files.
+- **Note**: Due to the large size of the QM9 datasets, the repository does not include QM9 files.
+- Ensure the dataset follos the expected format:SMILES
+- Place dataset files in the "data" files.
 
 ---
 
