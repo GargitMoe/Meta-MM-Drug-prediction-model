@@ -38,8 +38,8 @@ The project utilizes the following datasets for molecular property prediction:
 4. **QM9**: A regression dataset containing quantum mechanical properties of molecules.
 
 
--1. Ensure the dataset follos the expected format:SMILES
--2. Place dataset files in the "data" files.
+- 1. Ensure the dataset follos the expected format:SMILES
+- 2. Place dataset files in the "data" files.
 
 ---
 
