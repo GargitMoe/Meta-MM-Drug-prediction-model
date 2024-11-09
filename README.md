@@ -77,3 +77,11 @@ This project integrates techniques from **Meta-GAT** and **SGGRL**, and we are d
 - **SGGRL Paper and Code**: [https://arxiv.org/abs/2401.03369](https://arxiv.org/abs/2401.03369)
 - **Meta-GAT Code**: [https://github.com/lvqiujie/Meta-GAT](https://github.com/lvqiujie/Meta-GAT)
 - **Meta-GAT Paper**: [https://doi.org/10.1109/TNNLS.2023.3250324](https://doi.org/10.1109/TNNLS.2023.3250324)
+
+
+## Copyright Notice
+
+This code is jointly developed by @GargitMoe and S.W. If you encounter any issues or have any questions, feel free to reach out, and we will do our best to assist you.
+If this work has been helpful to your project, please consider citing our original GitHub repository.
+
+
