@@ -40,6 +40,7 @@ If you are looking for related information or wish to download the QM9 dataset, 
 ```bash
 python Meta-GAT.py
 ```
+> **Note:** Due to the integration of SGGRL and Meta-MM in this model, it is not "lightweight." Please ensure that your GPU has sufficient memory for running the model. The results presented are based on an RTX 3080 GPU.
 
 ---
 
