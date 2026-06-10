@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Preprocessed data (root level only)
+/data/
+*.pickle
+*.pkl
+*.npz
+
+# Experiment logs & outputs
+日志/
+logs/
+*.log
+
+# Deprecated / unused experiments
+暂时没用/
+archive/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Environments
+.env
+.venv/
+env/
+venv/
