@@ -193,4 +193,4 @@ This project builds upon two excellent prior works:
 
 ## License
 
-[MIT](LICENSE) © 2024 Liang Jiajie (GargitMoe)
+[MIT](LICENSE) © 2024 GargitMoe Wang Shuai(SYSU)
